@@ -14,7 +14,7 @@ with open(csvpath, 'r') as file_handler:
     row_count = len(data)-1
     print("Total Votes: ", row_count)
 
-#EIEELN HELP: (below code didn't work) A complete list of candidates who received votes
+#(below code didn't work) A complete list of candidates who received votes
 def unique(list1):
     with open(csvpath, 'r') as file_handler:
          headerline = file_handler.next()
